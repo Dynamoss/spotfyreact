@@ -1,0 +1,112 @@
+nav{
+    display: block;
+    background-color: black;
+    height: 87px;
+   
+}
+
+
+  @media (min-width: 992px) {
+    .navbar {
+      border-radius: 0;
+    }
+  }
+  @media (min-width: 992px) {
+    .navbar-header {
+      float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-left {
+      float: left !important;
+    }
+    .navbar-right {
+      float: right !important;
+      margin-right: -15px;
+    }
+    .navbar-right ~ .navbar-right {
+      margin-right: 0;
+    }
+}
+
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-stretch: condensed;
+    font-size: 110%;
+    margin: 14px 17px  0px  10px;
+    
+}
+.divider {
+    background-color: #d9dadc;
+    width: 1px;
+    height: 18px;
+    margin: 26px 17px;
+  }
+
+  a.nav-link:hover,
+  #header-sign-up:hover,
+  #header-login-link:hover,
+  a.navlink:focus {
+    color: #1ED760;
+  }
+
+  .navbar-logo {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 132px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+    float: left;
+    background-image: url('../img/logo.svg');
+  }
+
+  #header-sign-up{
+    color: #d9dadc;
+
+  }
+  #header-login-link{
+    color: #d9dadc;
+  }
+
+  container{
+    margin-right: 15px;
+    
+    display: flex;
+  }
+
+  .navbar navbar-expand-sm{
+    min-height: 54px;
+
+  }
+
+
+.container{
+  margin-right: 600px;
+  max-width: 1170px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

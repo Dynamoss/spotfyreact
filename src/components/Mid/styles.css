@@ -1,0 +1,40 @@
+.container-mid{
+    width: 100%;
+    height: 425px;
+    background-color: rgb(107, 195, 224);
+}
+
+container{
+    margin: auto;
+    width: 36.5%;
+    border: 20px solid rgb(107, 195, 224);
+}
+
+h1 {
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 25%;
+    color: #f2f2f2ba;
+}
+td,th {
+    border: black;
+    text-align: center;
+    padding: 8px;
+    color: black;
+}
+
+.imgbox {
+    width: 180px;
+    height: 180px;
+}
+
+
+
+
+
