@@ -1,26 +1,27 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
-
+// arrumar  o  href  para  ficar  spa  
 const Header = () => <header> 
     
     <nav class="navbar navbar-expand-sm">
     <div class="container">
 <div class="navbar-header">
-<a href="/">
+<Link to="/">
             <span class="navbar-logo">Spotify</span>
-          </a>
+          </Link>
     </div>
   <ul class="navbar-nav navbar-right">
     <li class="nav-item">
-      <a class="nav-link" href="#">Premium</a>
+      <Link class="nav-link"to="#">Premium</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/faq">Ajuda</a>
+      <Link class="nav-link" to="/faq">Ajuda</Link>
     </li>
     
     <li class="nav-item">
-      <a class="nav-link" href="#">Baixar</a>
+      <Link class="nav-link"to="#">Baixar</Link>
     </li>
 
     <li role="separator" class="divider">
@@ -28,10 +29,10 @@ const Header = () => <header>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" href="#" id="header-sign-up">Inscrever-se</a>
+      <Link class="nav-link" to="#" id="header-sign-up">Inscrever-se</Link>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#" id="header-login-link">Entrar</a>
+      <Link class="nav-link" to="#" id="header-login-link">Entrar</Link>
     </li>
   </ul>
 
