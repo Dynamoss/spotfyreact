@@ -4,7 +4,7 @@ import './styles.css'
 
 
 
-const Mid2 = () => <mid2> 
+const MidFaq = () => <midfaq> 
 
 
 
@@ -83,6 +83,6 @@ const Mid2 = () => <mid2>
     </section>
 
 
-</mid2>
+</midfaq>
 
-export default Mid2;
+export default MidFaq;

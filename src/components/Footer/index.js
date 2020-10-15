@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import {Link} from 'react-router-dom'
 
 
 
@@ -37,7 +37,7 @@ const Footer = () => <footer role="contentinfo">
 
           <div class="col-xs-12 col-md-2">
             <div class="footer-logo">
-              <a href="#">Spotify</a>
+              <Link to="/">Spotify</Link>
             </div>
           </div>
 
